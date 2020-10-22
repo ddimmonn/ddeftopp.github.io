@@ -1,0 +1,56 @@
+h1{
+	text-align: center;
+	color: darkviolet;	
+}
+h2{
+	text-align: center;
+	color: violet;
+}
+body{
+	background-color: lightblue;
+}
+
+.мореплавці{
+	background-color: grey;
+	text-decoration: none;
+	width: 145px;
+}
+.відкриття{
+	background-color: grey;
+	text-decoration: none;
+	width: 215px;
+}
+.Резюме{
+	background-color: grey;
+	text-decoration: none;
+	width: 50px;
+}
+.but{
+	font-size: 50px;
+	text-align: center;
+}
+a{
+	color: white;
+	text-decoration: none;
+	width: 50px;
+}
+ol{
+	background-color: lightyellow;
+	color: gray
+}
+ul{
+	background-color: lightyellow;
+	color:gray
+}
+dt{
+	background-color: lightyellow;
+	color: gray
+}
+dd{
+	background-color: lightyellow;
+	color: gray
+}
+h3{
+	background-color: gray;
+	color: white
+}
