@@ -30,3 +30,7 @@ tr:nth-child(odd){
 tr:hover{
 	background-color: white;
 }
+.but{
+	font-size: 50px;
+	text-align: center;
+}
