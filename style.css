@@ -44,6 +44,9 @@ body{
 }
 .up{
 	font-size: 50px;
+	position:sticky;
+	right:1px;
+	bottom:1px;
 }
 a{
 	color: white;
