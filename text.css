@@ -43,6 +43,12 @@ ol{
 	background-color: lightyellow;
 	color: gray
 }
+.up{
+	font-size: 50px;
+	position:sticky;
+	right:1px;
+	bottom:1px;
+}
 ul{
 	background-color: lightyellow;
 	color:gray
