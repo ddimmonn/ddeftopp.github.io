@@ -44,8 +44,8 @@ body{
 }
 .up{
 	font-size: 50px;
-	position:sticky;
-	right:1px;
+	position:fixed;
+	left: 1860px;
 	bottom:1px;
 }
 a{
