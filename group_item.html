@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Група</title>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+h3{
+  width: 324px;
+  height: 50px;
+  margin: 0 236px 40px 0;
+  font-family: Ledger;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #212121;
+  margin-top: 142px;
+}
+.main{
+	width: 940px;
+	margin-left: 490px;
+	margin-right: 490px;
+}
+.card1{
+	width: 450px;
+  	height: 100px;
+  	margin: 40px 20px 20px 0;
+  	padding: 25px 30px;
+  	border-radius: 5px;
+  	box-shadow: 0 1px 2px 0 #bcc1c8;
+  	background-color: #ffffff; 
+}
+.ind{
+      margin: 0 50px 3px 0;
+      font-family: AvenirNextCyr, sans-serif;
+      color: #ffffff;
+      text-decoration: none;
+    }
+.card1:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card2{
+	width: 200px;
+	  height: 100px;
+	  margin: 20px 20px 20px 0;
+	  padding: 25px 280px 25px 30px;
+	  border-radius: 5px;
+	  box-shadow: 0 1px 2px 0 #bcc1c8;
+	  background-color: #ffffff;
+}
+.card2:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card3{
+	width: 335px;
+  height: 100px;
+  margin: 20px 20px 20px 0;
+  padding: 25px 146px 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px 0 #bcc1c8;
+  background-color: #ffffff;
+}
+.card3:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card4{
+	width: 420px;
+  height: 130px;
+  margin: 20px 20px 80px 0;
+  padding: 30px 63px 30px 30px;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px 0 #bcc1c8;
+  background-color: #ffffff;
+  margin-top: 10px;
+}
+.card4:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.img1{
+	width: 380px;
+  height: 257px;
+  margin: 64px 0 270px 20px;
+  object-fit: contain;
+  margin-left: 550px;
+  margin-top: -600px;
+}
+.p1{
+	color: gray;
+	font-family: AvenirNextCyr;
+	margin-left: 30px;
+}
+.hh3{
+	width: 324px;
+  height: 50px;
+  margin: 0 236px 40px 0;
+  font-family: Ledger;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #212121;
+  margin-top:-50px;
+}
+input{
+
+  width: 900px;
+  height: 50px;
+  margin: 20px -8px;
+  padding: 9px 0px 9px 40px;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px 0 #bcc1c8;
+  background-color: #ffffff;
+
+}
+.lupa{
+  margin-top: -73px; 
+}
+.header {
+		  	width: 100%;
+		  	height: 60px;
+		  	display: inline-block;
+		 	background-color: #40464f;
+		 	font-size: 18px;
+		}
+		.logo{
+			width: 42px;
+			height: 42px;
+			margin: 9px 0 0 20px;
+			float: left;
+			
+		}
+		.header-title{
+		  	margin-top: 20px;
+		  	margin-left: 20px;
+		  	font-family: 'PlayfairDisplay', sans-serif;
+		  	color: #ffffff;
+		  	float: left;
+		}
+		.header-menu{
+			margin-left: 29%;
+			margin-top: 8px;
+		}
+		li{
+			float: left;
+			padding: 10px 45px;
+		}
+		.menu{
+			list-style-type: none;
+		}
+		.one{
+		  	margin: 0 50px 3px 0;
+		  	font-family: AvenirNextCyr, sans-serif;
+		  	color: #e8b32e;
+		}
+		.two{
+		  	margin: 0 50px 3px;
+		  	font-family: AvenirNextCyr, sans-serif;
+		  	color: #ffffff;
+		  	text-decoration: none;
+		}
+		.footer{
+			background-color: #40464f;
+			width: 100%;
+			height: 104px;
+			margin-top: 300px;
+		}
+		.logo-footer{
+			width: 42px;
+			height: 42px;
+			display: block;
+			margin: 0 auto 0 auto;
+			padding: 20px;
+		}
+		.title-footer{
+			margin: -10px 0 0;
+			text-align: center;
+			font-size: 10px;
+			color: #9aa2ac;
+		}
+
+
+	table.iksweb{
+	width: 900px;
+	border-collapse:collapse;
+	border-spacing:0;
+	height: auto;
+}
+ table.iksweb,table.iksweb td, table.iksweb th { 
+	border: 1px solid #595959;
+}
+table.iksweb td,table.iksweb th {
+	padding: 3px;
+	width: 30px;
+	height: 35px;
+}
+table.iksweb th {
+	background: #347c99; 
+	color: #fff; 
+	font-weight: normal;
+}
+
+.cardd{
+	width: 880px;
+  	height: 10px;
+  	margin: 2px 0px 0px 0;
+  	padding: 25px 30px;
+  	border-radius: 5px;
+  	box-shadow: 0 1px 2px 0 #bcc1c8;
+  	background-color: #ffffff;
+  	}
+.cardd:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	border-left:5px solid orange;
+}
+.p2{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.p3{
+	margin-top: 10px;
+}
+@media (max-width: 1355px){
+			.header{
+				height: 100px;
+			}
+			.cont{
+				margin-left: 180px;
+			}
+			.one{
+				margin-left: 90px;
+			}
+			.grup{
+				margin-left: 70px;
+			}
+			.teach{
+				margin-left: 70px;
+			}
+		}
+		@media (max-width: 1250px){
+			.one{
+				margin-left: 0;
+			}
+		}
+		@media (max-width: 1110px){
+			.cont{
+				margin-left: 150px;
+			}
+			.one{
+				margin-left: 120px;
+			}
+			.teach{
+				margin-left: -45px;
+			}
+		}
+		@media (max-width: 953px){
+			.grup{
+				position: relative;
+				left: -180px;
+			}
+			.teach{
+				margin: 0 0 0 3px;
+				margin-left: -150px;
+			}
+			.cont{
+				margin-left: 0;
+			}
+		}
+		@media (max-width: 792px){
+			.one{
+				margin-left: 80px;
+			}
+			.header{
+				height: 120px;
+			}
+			.cont{
+				margin-left: -80px;
+			}
+			.grup{
+				position: relative;
+				left: -220px;
+			}
+			.teach{
+				margin: 0 0 0 3px;
+				margin-left: -200px;
+			}
+			.logo{
+				margin-left: 70px;
+			}
+		}
+		@media (max-width: 720px){
+			.one{
+				margin: 0 100px 3px 0;
+				margin-left: 50px;
+			}
+			.logo{
+				margin-left: 170px; 
+			}
+		}
+		@media (max-width: 679px){
+			.one{
+				position: relative;
+				left: -140px;
+			}
+			.logo{
+				margin-left: 140px; 
+			}
+			.grup{
+				margin: 0 0 0 3px;
+				margin-left: -100px;
+				
+				left: 0;
+			}
+			.teach{
+				margin-left: -90px;
+			}
+			.cont{
+				margin-left: 110px;
+			}
+		}
+		@media (max-width: 584px){
+			.logo{
+				margin-left: 100px;
+			}
+			.one{
+				margin-left: 30px;
+			}
+			.grup{
+				margin-left: -109px;
+			}
+			.teach{
+				margin-left: -110px;
+			}
+			.cont{
+				margin-left: 75px;
+			}
+			.text2{
+				top: 170px;
+			}
+		}
+
+
+
+
+	</style>
+
+</head>
+<div class="header">
+	<a href="index.html"><img class="logo" src="logo.png"></a>
+	<div class="header-title">
+		<p>Довідник наукового ліцею «Політ»</p>
+	</div>
+	<div class="header-menu">
+		<ul class="menu">
+			<li><a class="ind" href="index.html">Головна</a></li>
+			<li><a class="two grup" href="grypu_vsi_2.html">Групи</a></li>
+			<li><a class="two teach" href="uch.html">Учителі</a></li>
+			<li><a class="two cont" href="contacts.html">Контакти</a></li>
+		</ul>
+	</div>
+</div>
+<body>
+	<div class="main">
+	<h3>Група Л-10В</h3>
+	<div class="card1">
+			<img style="float: left;" src="self-improvement-black-48-dp.png">
+		<p class="p1">Класний керівник</p>
+		<p class="p2">Падалка Наталія Леонідівна</p>
+		<a href="padalka.html"><img style="position: relative; top: -50px;margin-left: 440px;" src="expand-more-white-48-dp.png">
+	</a></div>
+<div class="card2">
+	<img style="float: left;" src="group-black-48-dp.png">
+	<p class="p1">Кількість учнів</p>
+	<p class="p2">30</p>
+</div>
+<div class="card3">
+	<img src="school-black-48-dp.png" style="float: left;">
+	<p class="p1">Профіль(напрямок навчання)</p>
+	<p class="p2">Інформаційні технології</p>
+</div>
+<div class="card4">
+	<img src="text-snippet-black-48-dp.png" style="float: left;">
+	<p class="p1">Предмети для поглибленного вивчення</p>
+	<p class="p2">Інформатика</p>
+	<p class="p3">Програмування</p>	
+</div>
+<img class="img1" src="pic-group-item.png">
+<h3 class="hh3">Учні</h3>
+<input 
+placeholder="Пошук…">
+<div class="lupa "><img  src="search-white-48-dp.png"></div>
+
+
+
+<div style="margin-top: 40px;width: 880px;
+  	height: 10px;
+  	margin: 2px 0px 0px 0;
+  	padding: 25px 30px;
+  	border-radius: 5px;
+  	box-shadow: 0 1px 2px 0 #bcc1c8;
+  	background-color: #ffffff;margin-top: 40px;" class="card">
+<p style="font-weight: bold;">Фото</p>
+<p style="margin-left: 80px;margin-top: -18px;font-weight: bold;">ПІБ</p>
+</div>
+
+	<div class="cardd">
+		<img src="https://alexmarchukprod.com.ua/assets/photo/students/04.jpeg" style="height: 48px; width: 48px; margin-top: -20px; margin-left: -5px;">
+		<p style="margin-left: 80px;margin-top: -22px;px;">Артамонова Анна Володимирівна</p>
+		<a href="Artamonova.html"><img style="margin-top: -60px;margin-left: 870px;" src="expand-more-white-48-dp.png">
+		</a></div>
+		<div class="cardd">
+			<img src="https://alexmarchukprod.com.ua/assets/photo/students/06.jpg" style="height: 48px; width: 48px; margin-top: -20px; margin-left: -5px;">
+			<p style="margin-left: 80px;margin-top: -22px;">Гладкий Максим Єгорович</p>
+			<a href="Ghladkiy.html"><img style="margin-top: -30px;margin-left: 870px;" src="expand-more-white-48-dp.png">
+			</a></div>
+			<div class="cardd">
+							<img src="https://alexmarchukprod.com.ua/assets/photo/students/14.jpg" style="height: 48px; width: 48px; margin-top: -20px; margin-left: -5px;">
+							<p style="margin-left: 80px;margin-top: -22px;">Д'яченко Данило Сергійович</p>
+							<a href="Djachenko.html"><img style="margin-top: -30px;margin-left: 870px;" src="expand-more-white-48-dp.png">
+							</a></div>
+			<div class="cardd">
+				<img src="https://alexmarchukprod.com.ua/assets/photo/students/09.jpeg" style="height: 48px; width: 48px; margin-top: -20px; margin-left: -5px;">
+				<p style="margin-left: 80px;margin-top: -22px;"><a href="kekalo.html"></a></ABBR> Кекало Катерина Олегівна</p>
+				<a href="Kekalo.html"><img style="margin-top: -30px;margin-left: 870px;" src="expand-more-white-48-dp.png"></a>
+				</div>
+				<div class="cardd">
+					<img src="https://alexmarchukprod.com.ua/assets/photo/students/11.jpg" style="height: 48px; width: 48px; margin-top: -20px; margin-left: -5px;">	
+					<p style="margin-left: 80px;margin-top: -22px;">Кормільченко Єлизавета Костянтинівна</p>
+					<a href="Kormilchenko.html"><img style="margin-top: -30px;margin-left: 870px;" src="expand-more-white-48-dp.png">
+				</a>	</div>
+					<div class="cardd">
+						<img src="https://alexmarchukprod.com.ua/assets/photo/students/08.jpg" style="height: 48px; width: 48px; margin-top: -20px; margin-left: -5px;">
+						<p style="margin-left: 80px;margin-top: -22px;">Кучеренко Даніїл Андрійович</p>
+						<a href="Kucherenko.html"><img style="margin-top: -30px;margin-left: 870px;" src="expand-more-white-48-dp.png"></a>
+						</div>
+								<div class="cardd">
+									<img src="https://alexmarchukprod.com.ua/assets/photo/students/03.jpg" style="height: 48px; width: 48px; margin-top: -20px; margin-left: -5px;">
+									<p style="margin-left: 80px;margin-top: -22px;">Левченко Катерина Сергіївна</p>
+									<a href="Levchenko.html"><img style="margin-top: -30px;margin-left: 870px;" src="expand-more-white-48-dp.png">
+								</a>	</div>
+									<div class="cardd">
+									<img src="https://alexmarchukprod.com.ua/assets/photo/students/10.jpg" style="height: 48px; width: 48px; margin-top: -20px; margin-left: -5px;">
+									<p style="margin-left: 80px;margin-top: -22px;">Лещенко Олег Сергійович</p>
+									<a href="Leschenko.html"><img style="margin-top: -30px;margin-left: 870px;" src="expand-more-white-48-dp.png">
+									</a></div>
+									<div class="cardd">
+									<img src="https://alexmarchukprod.com.ua/assets/photo/students/13.jpg" style="height: 48px; width: 48px; margin-top: -20px; margin-left: -5px;">
+									<p style="margin-left: 80px;margin-top: -22px;">Михайлик Олексій Олексійович</p>
+									<a href="Mihailik.html"><img style="margin-top: -30px;margin-left: 870px;" src="expand-more-white-48-dp.png">
+								</a>	</div>
+									<div class="cardd">
+									<img src="https://alexmarchukprod.com.ua/assets/photo/students/05.jpg" style="height: 48px; width: 48px; margin-top: -20px; margin-left: -5px;">
+									<p style="margin-left: 80px;margin-top: -22px;">Наливайко Юлія Дмитрівна</p>
+									<a href="Nalyvaiko.html"><img style="margin-top: -30px;margin-left: 870px;" src="expand-more-white-48-dp.png">
+									</a></div>
+									<div class="cardd">
+									<img src="https://alexmarchukprod.com.ua/assets/photo/students/12.jpg" style="height: 48px; width: 48px; margin-top: -20px; margin-left: -5px;">
+									<p style="margin-left: 80px;margin-top: -22px;">Пашко В'ячеслав Вікторович</p>
+									<a href="Pashko.html"><img style="margin-top: -30px;margin-left: 870px;" src="expand-more-white-48-dp.png"></a>
+									</div>
+									<div class="cardd">
+									<img src="https://alexmarchukprod.com.ua/assets/photo/students/07.jpeg" style="height: 48px; width: 48px; margin-top: -20px; margin-left: -5px;">
+									<p style="margin-left: 80px;margin-top: -22px;">Рябошапка Владислав Олександрович</p>
+									<a href="Riaboshapka.html"><img style="margin-top: -30px;margin-left: 870px;" src="expand-more-white-48-dp.png"></a>
+									</div>
+									<div class="cardd">
+									<img src="https://alexmarchukprod.com.ua/assets/photo/students/02.jpg" style="height: 48px; width: 48px; margin-top: -20px; margin-left: -5px;">
+									<p style="margin-left: 80px;margin-top: -22px;">Федірко Владислав Сергійович</p>
+									<a href="fedirko.html"><img style="margin-top: -30px;margin-left: 870px;" src="expand-more-white-48-dp.png"></a>
+									</div>
+									<div class="cardd">
+									<img src="https://alexmarchukprod.com.ua/assets/photo/students/01.jpg" style="height: 48px; width: 48px; margin-top: -20px; margin-left: -5px;">
+									<p style="margin-left: 80px;margin-top: -22px;">Хмельницький Даніїл Олександрович</p>
+									<a href="khmelnitski.html"><img style="margin-top: -30px;margin-left: 870px;" src="expand-more-white-48-dp.png"></a>
+									</div>
+									
+
+
+
+	</div>
+<div class="footer">
+<a href="index.html"><img class="logo-footer" src="logo.png"></a>
+<p class="title-footer">© Веб-сайт «Довідник наукового ліцею «Політ», 2021. Усі права захищені.</p>
+</div>
+</body>
+</html>

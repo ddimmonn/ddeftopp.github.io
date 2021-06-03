@@ -1,0 +1,267 @@
+		@import url('https://fonts.googleapis.com/css2?family=Ledger&family=Playfair+Display&family=Roboto:wght@100&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Ledger&family=Playfair+Display&family=Roboto:wght@100&display=swap');
+		body{
+			background-color: #f4f5f6;
+		}
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		.main {
+		  	width: 100%;
+		  	height: 100%;
+		  	background-color: #f4f5f6;
+		}
+		.header {
+		  	width: 100%;
+		  	height: 60px;
+		  	display: inline-block;
+		 	background-color: #40464f;
+		 	font-size: 18px;
+		}
+		.logo{
+			width: 42px;
+			height: 42px;
+			margin: 9px 0 0 20px;
+			float: left;
+			
+		}
+		.header-title{
+		  	margin-top: 20px;
+		  	margin-left: 20px;
+		  	font-family: 'PlayfairDisplay', sans-serif;
+		  	color: #ffffff;
+		  	float: left;
+		}
+		.header-menu{
+			margin-left: 29%;
+			margin-top: 8px;
+		}
+		li{
+			float: left;
+			padding: 10px 45px;
+		}
+		.menu{
+			list-style-type: none;
+		}
+		.one{
+		  	margin: 0 50px 3px 0;
+		  	font-family: AvenirNextCyr, sans-serif;
+		  	color: #e8b32e;
+		}
+		.two{
+		  	margin: 0 50px 3px;
+		  	font-family: AvenirNextCyr, sans-serif;
+		  	color: #ffffff;
+		  	text-decoration: none;
+		}
+		.grup2{
+			width: 55px;
+			height: 18px;
+			margin: 40px 20px 40px 0px;
+			padding: 10px 20px;
+			border-radius: 5px;
+			font-family: AvenirNextCyr, sans-serif;
+			background-color: #e8b32e;
+			font-size: 18px;
+			float: left;
+		}
+		.one1{
+			text-decoration: none;
+			outline: none;
+			color: #ffffff;
+		}
+		.teach2{
+			width: 77px;
+			height: 18px;
+			margin: 40px 0 0 20px;
+			padding: 10px 20px;
+			border-radius: 5px;
+			font-family: AvenirNextCyr, sans-serif;
+			background-color: #e8b32e;
+			font-size: 18px;
+			float: left;
+		}
+		.block{
+			width: 240px;
+			text-align: center;
+			margin-top: 0px;
+			margin-left: auto;
+			margin-right: auto;
+			display: flex;
+		}
+		.two1{
+			text-decoration: none;
+			outline: none;
+			color: #ffffff;
+			text-align: center;
+		}
+		.one, .two:hover{
+			color: #e8b32e;
+		}
+		.text{
+			font-family: Ledger, sans-serif;
+			height: 100px;
+			position: relative;
+			text-align: center;
+			top: 80px;
+		}
+		.text2{
+			font-family: Ledger, sans-serif;
+			font-size: 21px;
+			height: 100px;
+			text-align: center;
+			margin-top: 110px;
+		}
+		.pic_main {
+			width: 418px;
+			height: 378px;
+			margin: 0 auto 0 auto;
+			display: block;
+			object-fit: contain;
+		}
+		.footer{
+			background-color: #40464f;
+			width: 100%;
+			height: 104px;
+			margin-top: 40px;
+		}
+		.logo-footer{
+			width: 42px;
+			height: 42px;
+			display: block;
+			margin: 0 auto 0 auto;
+			padding: 20px;
+		}
+		.title-footer{
+			margin: -10px 0 0;
+			text-align: center;
+			font-size: 10px;
+			color: #9aa2ac;
+		}
+		.block1{
+			text-align: center;
+		}
+		@media (max-width: 1355px){
+			.header{
+				height: 100px;
+			}
+			.cont{
+				margin-left: 180px;
+			}
+			.one{
+				margin-left: 90px;
+			}
+			.grup{
+				margin-left: 70px;
+			}
+			.teach{
+				margin-left: 70px;
+			}
+		}
+		@media (max-width: 1250px){
+			.one{
+				margin-left: 0;
+			}
+		}
+		@media (max-width: 1110px){
+			.cont{
+				margin-left: 150px;
+			}
+			.one{
+				margin-left: 120px;
+			}
+			.teach{
+				margin-left: -45px;
+			}
+		}
+		@media (max-width: 953px){
+			.grup{
+				position: relative;
+				left: -180px;
+			}
+			.teach{
+				margin: 0 0 0 3px;
+				margin-left: -150px;
+			}
+			.cont{
+				margin-left: 0;
+			}
+		}
+		@media (max-width: 792px){
+			.one{
+				margin-left: 80px;
+			}
+			.header{
+				height: 120px;
+			}
+			.cont{
+				margin-left: -80px;
+			}
+			.grup{
+				position: relative;
+				left: -220px;
+			}
+			.teach{
+				margin: 0 0 0 3px;
+				margin-left: -200px;
+			}
+			.logo{
+				margin-left: 70px;
+			}
+		}
+		@media (max-width: 720px){
+			.one{
+				margin: 0 100px 3px 0;
+				margin-left: 50px;
+			}
+			.logo{
+				margin-left: 170px; 
+			}
+		}
+		@media (max-width: 679px){
+			.one{
+				position: relative;
+				left: -140px;
+			}
+			.logo{
+				margin-left: 140px; 
+			}
+			.grup{
+				margin: 0 0 0 3px;
+				margin-left: -100px;
+				
+				left: 0;
+			}
+			.teach{
+				margin-left: -90px;
+			}
+			.cont{
+				margin-left: 110px;
+			}
+		}
+		@media (max-width: 594px){
+			.logo{
+				margin-left: 100px;
+			}
+			.one{
+				margin-left: 30px;
+			}
+			.grup{
+				margin-left: -109px;
+			}
+			.teach{
+				margin-left: -110px;
+			}
+			.cont{
+				margin-left: 75px;
+			}
+			.text2{
+				top: 170px;
+			}
+		}
+		@media (max-width: 550px){
+			.header{
+				height: 200px;
+			}
+		}
