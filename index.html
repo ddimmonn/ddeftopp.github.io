@@ -18,7 +18,7 @@ body{
 .dia_mother{
 	position: relative;
 	top: 40px;
-	left: 30px;
+	left: 20px;
 	display: flex;
 	width: 1000px;
 	height: 100px;
@@ -40,7 +40,7 @@ body{
 }
 .QR{
 	text-align: right;
-	margin-right: 30px;
+	margin-right: 40px;
 }
 .qr{
 	position: relative;
@@ -51,7 +51,7 @@ body{
 .photo{
 	position: relative;
 	top: 28px;
-	left: 30px;
+	left: 20px;
 	border-radius: 20%;
 	
 }
@@ -170,6 +170,16 @@ body{
 	</div>
 </body>
 <script>
-
+alert(new Date());
+var timeNode = document.getElementById('time-node');
+ 
+   function getCurrentTimeString() {
+      return new Date().toTimeString().replace(/ .*/, '');
+   }
+ 
+   setInterval(
+      () => timeNode.innerHTML = getCurrentTimeString(),
+      1000
+   );
 </script>
 </html>
